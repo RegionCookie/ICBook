@@ -10,7 +10,7 @@ public class lesson_0 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_les0);
+        setContentView(R.layout.activity_lesson_0);
 
         TextView tv = (TextView) findViewById(R.id.l0_t0);
         Typeface face = Typeface.createFromAsset(getAssets(), "fonts/minecraft_rus.ttf");
