@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lessons"
+    android:background="@drawable/app_background_menu">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_less0"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="70dp"
+                android:text="Введение"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess0"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 1: Создание предметов"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess1"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 2: Создание еды"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess2"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 3: Создание брони"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess3"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 4: Создание блоков"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess4"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 5: Рецепты"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess5"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 6: Частицы"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess6"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 7: TileEntity"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess7"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 8: Модуль Callback"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess8"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 9: Рендер блоков"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess9"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 10: Форма блоков"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess10"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 11: Модуль World"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess11"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 12: Модуль Game"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess12"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 13: Модуль Entity"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess13"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 14: Создание мобов"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess14"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 15: Модуль Player"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess15"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_header"
+        android:clickable="true"
+        android:onClick="onClickHeader"/>
+
+    <TextView
+        android:id="@+id/txt_less_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Уроки"
+        android:layout_marginTop="10dp"
+        android:gravity="center|top"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowColor="#000"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:shadowDy="1"/>
+
+</android.support.constraint.ConstraintLayout>
