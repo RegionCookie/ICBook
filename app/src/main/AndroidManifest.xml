@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.regionzero.event.icbook">
+    package="com.regionzero.event.icbook"
+    android:versionCode="1"
+    android:versionName="v0.1 beta">
+
 
     <application
         android:allowBackup="true"
