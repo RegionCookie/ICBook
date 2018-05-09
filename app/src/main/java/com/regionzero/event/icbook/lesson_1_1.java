@@ -7,14 +7,13 @@ import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class lesson_13 extends AppCompatActivity {
+public class lesson_1_1 extends AppCompatActivity {
 
     ScrollView myScroll;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lesson_13);
-
+        setContentView(R.layout.activity_lesson_1_1);
         myScroll = (ScrollView) findViewById(R.id.myview);
 
         TextView tv = (TextView) findViewById(R.id.txt_less_title);

@@ -1,20 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">ICBook</string>
-	<string name="l1_t0">Ну что ж, в этом уроке мы рассмотрим создание предметов.\n\nДля начала нужно зарегестрировать ID - уникальный идентефикатор, который задается строкой и натуральным числом, которое сопоставляется этой строке. Чтобы зарегистрировать ID, используется модуль IDRegistry.</string>
-    <string name="l1_t1" tools:ignore="StringEscaping">Для регистрации ID предмета используется метод IDRegistry.genItemID(\"строковый ID\") - после вызова этой функции сгенерируется новый уникальный ID для предмета, доступ к числовому значению которого может быть произведен как ItemID.строковый ID\nПриведем пример:</string>
+    <string name="l1_t0">Регистрация ID\n\nID - уникальный идентефикатор, который задается строкой и натуральным числом, которое сопоставляется этой строке. Чтобы зарегистрировать ID, используется модуль IDRegistry.</string>
+    <string name="l1_t1" tools:ignore="StringEscaping">Для регистрации ID предмета используется метод IDRegistry.genItemID(\"строковый ID\") - после вызова этой функции сгенерируется новый уникальный ID для предмета, доступ к числовому значению которого может быть произведен как ItemID.строковый ID\nПример:</string>
     <string name="l1_t2" tools:ignore="StringEscaping">IDRegistry.genItemID(\"testItem\");\n// доступ через ItemID.testItem</string>
+    <string name="l1_t9">Текстуры\n\nВ ресурсах мода текстуры блоков и предметов задаются в определенном формате: каждая текстура должна быть в формате .png и имеет имя и номер, название любой текстуры выглядит так: имя_номер.png и никак иначе. Номера текстур с одним именем должны идти последовательно и начинаться с 0. Текстуры предметов в ресурспаке располагаются по адресу images/items-opaque/</string>
     <string name="l1_t3" tools:ignore="StringEscaping">После регистрации ID предмета, создается сам предмет на этом ID. Предметы могут быть разных типов: обычный, броня, еда и кидаемый, для каждого из них существует свой метод. Для создания предметов используется модуль Item. Каждый предмет имеет текстуру, которая задается в формате {name: \"имя текстуры\", meta: номер текстуры}, если номер текстуры 0, его можно не указывать.</string>
-    <string name="l1_t4" tools:ignore="StringEscaping">Item.createItem(\"строковый ID\", \"имя предмета\", текстура, параметры)\n// создает обычный предмет на ранее зарегистрированном строковом ID, с данным именем, текстурой и параметрами.</string>
-    <string name="l1_t5" >Параметры имеют формат, если вы не хотите изменять значения по-умолчанию, просто не пишите их:</string>
-    <string name="l1_t6" >{\n     isTech: false,\n     // если true, не добавляет предмет в креатив\n     stack: 64\n     // размер стака\n} </string>
+    <string name="l1_t4" tools:ignore="StringEscaping">Item.createItem(\"строковый ID\", \"имя предмета\", текстура, параметры);\n// создает обычный предмет на ранее зарегистрированном строковом ID, с данным именем, текстурой и параметрами</string>
+    <string name="l1_t5">Параметры имеют формат, если вы не хотите изменять значения по-умолчанию, просто не пишите их:</string>
+    <string name="l1_t6">{\n     isTech: false,\n     // если true, не добавляет предмет в креатив\n     stack: 64\n     // размер стака\n} </string>
     <string name="l1_t7">Полный пример создания предмета:</string>
-    <string name="l1_t8" tools:ignore="StringEscaping">IDRegistry.genItemID(\"testItem\");\nItem.createItem(\"testItem\", \"test item\", {name: \"stick\", meta: 0}, {});\n// создаем обычный предмет на ID testItem с текстурой палки и стандартными параметрами</string>
-    <string name="l2_t0">В этом уроке мы изучаем создание еды.\n\nДля начала, как и в предыдущий раз, регестрируем ID.</string>
-    <string name="l2_t1" tools:ignore="StringEscaping">IDRegistry.genItemID(\"testItem\");\n// доступ через ItemID.testItem</string>
-    <string name="l2_t2">Опять же создаем предмет, однако модуль немного отличается</string>
-    <string name="l2_t3">Item.createFoodItem("строковый ID", "имя предмета", текстура, параметры) - создает съедобный предмет на ранее зарегистрированном строковом ID, с данным именем, текстурой и параметрами</string>
-    <string name="l2_t4"></string>
-    <string name="l2_t5"></string>
-    <string name="l2_t6"></string>
-
+    <string name="l1_t8" tools:ignore="StringEscaping">IDRegistry.genItemID(\"testItem\");\nItem.createItem(\"testItem\", \"Stick\", {name: \"stick\", data: 0},{isTech: false, stack: 16});\n//В этом примере показано создание палки.</string>
+    <string name="l1_1_t0">Создание предмета</string>
+    <string name="l1_1_t1" tools:ignore="StringEscaping">Item.createFoodItem(\"строковый ID\, \"имя предмета\", текстура, параметры);\n// создает съедобный предмет на ранее зарегистрированном строковом ID, с данным именем, текстурой и параметрами.</string>
+    <string name="l1_1_t4">Параметры имеют формат, если вы не хотите изменять значения по-умолчанию, просто не пишите их:</string>
+    <string name="l1_1_t5">{\nisTech: false,\n// если true, не добавляет предмет в креатив\nstack: 64,\n// размер стака\nfood: 1\n// восполнение единиц голода\n}</string>
+    <string name="l1_1_t6">Пример:</string>
+    <string name="l1_1_t7" tools:ignore="StringEscaping">IDRegistry.genItemID(\"testFoodItem\");\n//Регистрация строкового ID для съедобного предмета\nItem.createFoodItem(\"testFoodItem\", \"apple\", {name: \"apple\", data: 0}, {isTech: false, stack: 64, food: 2});\n//В этом примере показано создание яблока.</string>
 </resources>

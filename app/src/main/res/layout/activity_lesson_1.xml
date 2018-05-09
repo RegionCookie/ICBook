@@ -51,20 +51,34 @@
                 android:layout_marginRight="5dp"
                 android:gravity="center"
                 android:text="@string/l1_t2"
-                android:textColor="#ffff00"
+                android:textColor="#0df"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/l1_t9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/l1_t9"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+
             <TextView
                 android:id="@+id/l1_t3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
                 android:text="@string/l1_t3"
                 android:textColor="#fff"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
+
             <TextView
                 android:id="@+id/l1_t4"
                 android:layout_width="match_parent"
@@ -73,7 +87,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
                 android:text="@string/l1_t4"
-                android:textColor="#ffff00"
+                android:textColor="#0df"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
             <TextView
@@ -95,7 +109,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
                 android:text="@string/l1_t6"
-                android:textColor="#ffff00"
+                android:textColor="#0df"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
             <TextView
@@ -118,7 +132,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
                 android:text="@string/l1_t8"
-                android:textColor="#ffff00"
+                android:textColor="#0df"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
         </LinearLayout>

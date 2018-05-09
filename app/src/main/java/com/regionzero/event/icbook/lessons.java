@@ -37,6 +37,18 @@ public class lessons extends AppCompatActivity {
         Intent intent = new Intent(this, lesson_1.class);
         startActivity(intent);
     }
+    public  void onClickLess1_1(View view) {
+        Intent intent = new Intent(this, lesson_1_1.class);
+        startActivity(intent);
+    }
+    /*public  void onClickLess1_2(View view) {
+        Intent intent = new Intent(this, lesson_1_2.class);
+        startActivity(intent);
+    }
+    public  void onClickLess1_3(View view) {
+        Intent intent = new Intent(this, lesson_1_3.class);
+        startActivity(intent);
+    }
     public  void onClickLess2(View view) {
         Intent intent = new Intent(this, lesson_2.class);
         startActivity(intent);
@@ -45,12 +57,20 @@ public class lessons extends AppCompatActivity {
         Intent intent = new Intent(this, lesson_3.class);
         startActivity(intent);
     }
+    public  void onClickLess3_1(View view) {
+        Intent intent = new Intent(this, lesson_3_1.class);
+        startActivity(intent);
+    }
     public  void onClickLess4(View view) {
         Intent intent = new Intent(this, lesson_4.class);
         startActivity(intent);
     }
     public  void onClickLess5(View view) {
         Intent intent = new Intent(this, lesson_5.class);
+        startActivity(intent);
+    }
+    public  void onClickLess5_1(View view) {
+        Intent intent = new Intent(this, lesson_5_1.class);
         startActivity(intent);
     }
     public  void onClickLess6(View view) {
@@ -84,14 +104,6 @@ public class lessons extends AppCompatActivity {
     public  void onClickLess13(View view) {
         Intent intent = new Intent(this, lesson_13.class);
         startActivity(intent);
-    }
-    public  void onClickLess14(View view) {
-        Intent intent = new Intent(this, lesson_14.class);
-        startActivity(intent);
-    }
-    public  void onClickLess15(View view) {
-        Intent intent = new Intent(this, lesson_15.class);
-        startActivity(intent);
-    }
+    }*/
 
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lesson_2"
+    tools:context=".lesson_1_1"
     android:background="@drawable/app_background_lessons">
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/myview"
@@ -18,41 +18,74 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/l1_t0"
+                android:id="@+id/l1_1_t0"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
-                android:text="@string/l2_t0"
+                android:text="@string/l1_1_t0"
                 android:textColor="#fff"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
             <TextView
-                android:id="@+id/l2_t2"
+                android:id="@+id/l1_1_t1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
-                android:gravity="center"
-                android:text="@string/l1_t2"
-                android:textColor="#ffff00"
+                android:text="@string/l1_1_t1"
+                android:textColor="#0df"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
-
             <TextView
-                android:id="@+id/l1_t3"
+                android:id="@+id/l1_1_t4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
-                android:text="@string/l1_t3"
+                android:text="@string/l1_1_t4"
+                android:textColor="#fff"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/l1_1_t5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/l1_1_t5"
+                android:textColor="#0df"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/l1_1_t6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/l1_1_t6"
                 android:textColor="#fff"
                 android:textSize="19sp"
                 android:textStyle="bold"/>
 
+            <TextView
+                android:id="@+id/l1_1_t7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/l1_1_t7"
+                android:textColor="#0df"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
         </LinearLayout>
     </ScrollView>
 
