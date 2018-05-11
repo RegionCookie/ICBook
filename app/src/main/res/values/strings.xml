@@ -16,4 +16,10 @@
     <string name="l1_1_t5">{\nisTech: false,\n// если true, не добавляет предмет в креатив\nstack: 64,\n// размер стака\nfood: 1\n// восполнение единиц голода\n}</string>
     <string name="l1_1_t6">Пример:</string>
     <string name="l1_1_t7" tools:ignore="StringEscaping">IDRegistry.genItemID(\"testFoodItem\");\n//Регистрация строкового ID для съедобного предмета\nItem.createFoodItem(\"testFoodItem\", \"apple\", {name: \"apple\", data: 0}, {isTech: false, stack: 64, food: 2});\n//В этом примере показано создание яблока.</string>
+    <string name="l1_2_t0">Создание брони</string>
+    <string name="l1_2_t1" tools:ignore="StringEscaping">Item.createArmorItem(\"строковый ID\", \"имя предмета\", текстура, параметры);\n// создает предмет брони на ранее зарегистрированном строковом ID, с данным именем, текстурой и параметрами.</string>
+    <string name="l1_2_t2">Параметры имеют формат, если вы не хотите изменять значения по-умолчанию, просто не пишите их:</string>
+    <string name="l1_2_t3" tools:ignore="StringEscaping">{\npisTech: false, \n// если true, не добавляет предмет в креатив\narmor: 1, \n// значение брони\ntype: \"обязательное значение\", \n// тип предмета \"helmet\"/\"chestplate\"/\"leggings\"/\"boots\"\ntexture: обязательное значение,\n// текстура модели данного предмета брони\ndurability: 1\n// прочность\n}</string>
+    <string name="l1_2_t4">Пример</string>
+    <string name="l1_2_t5" tools:ignore="StringEscaping">IDRegistry.genItemID(\"testArmorItem\");\n//Регистрация строкового ID для предмета брони\nItem.createArmorItem(\"testArmorItem\", \"Iron Chestplate\", {name: \"chestplate\", data: 2}, {type: \"chestplate\", armor: 4, durability: 256, texture: \"mob/zombie.png\", isTech: false});\n//Создали железный нагрудник с текстурой которую мы указали</string>
 </resources>

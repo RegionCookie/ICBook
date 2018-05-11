@@ -41,11 +41,11 @@ public class lessons extends AppCompatActivity {
         Intent intent = new Intent(this, lesson_1_1.class);
         startActivity(intent);
     }
-    /*public  void onClickLess1_2(View view) {
+    public  void onClickLess1_2(View view) {
         Intent intent = new Intent(this, lesson_1_2.class);
         startActivity(intent);
     }
-    public  void onClickLess1_3(View view) {
+    /*public  void onClickLess1_3(View view) {
         Intent intent = new Intent(this, lesson_1_3.class);
         startActivity(intent);
     }

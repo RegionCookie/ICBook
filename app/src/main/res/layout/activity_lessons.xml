@@ -71,7 +71,7 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"/>
 
-            <Button
+            <!--- <Button
                 android:id="@+id/btn_less1_3"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -266,7 +266,7 @@
                 android:onClick="onClickLess13"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"
-                android:layout_marginBottom="10dp"/>
+                android:layout_marginBottom="10dp"/> -->
 
 
         </LinearLayout>
