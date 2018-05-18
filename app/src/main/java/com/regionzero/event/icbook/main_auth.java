@@ -41,6 +41,11 @@ public class main_auth extends AppCompatActivity {
         startActivity(browserIntent);
     }
 
+    public  void onClickMS(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/id370759218"));
+        startActivity(browserIntent);
+    }
+
     public  void onClickZH(View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/id212997187"));
         startActivity(browserIntent);

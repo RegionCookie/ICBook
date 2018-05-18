@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.regionzero.event.icbook"
-    android:versionCode="1"
-    android:versionName="v0.1 beta">
+    package="com.regionzero.event.icbook">
 
     <application
         android:allowBackup="true"
@@ -74,8 +72,7 @@
         <activity android:name=".lesson_13" />
         <activity android:name=".lesson_14" />
         <activity android:name=".lesson_15" />
-        <activity android:name=".lesson_1_1" />
-        <activity android:name=".lesson_1_2"></activity>
+        <activity android:name=".lesson_3_1"></activity>
     </application>
 
 </manifest>

@@ -71,7 +71,7 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"/>
 
-            <!--- <Button
+            <Button
                 android:id="@+id/btn_less1_3"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -82,9 +82,9 @@
                 android:layout_marginLeft="10dp"
                 android:onClick="onClickLess1_3"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/clicked"/>
+              android:background="@drawable/clicked"/>
 
-            <Button
+            <!---   <Button
                 android:id="@+id/btn_less2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -95,7 +95,7 @@
                 android:layout_marginLeft="10dp"
                 android:onClick="onClickLess2"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/clicked"/>
+                android:background="@drawable/clicked"/> -->
 
             <Button
                 android:id="@+id/btn_less3"
@@ -123,7 +123,7 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"/>
 
-            <Button
+            <!---<Button
                 android:id="@+id/btn_less4"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"

@@ -138,6 +138,7 @@
                 android:clickable="true"
                 android:onClick="onClickVP"/>
 
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -148,6 +149,17 @@
                 android:textSize="22.5dp"
                 android:clickable="true"
                 android:onClick="onClickSS"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text=" - Михаил Шуньков,"
+                android:textColor="@android:color/background_light"
+                android:textSize="22.5dp"
+                android:clickable="true"
+                android:onClick="onClickMS"/>
 
             <TextView
                 android:layout_width="match_parent"

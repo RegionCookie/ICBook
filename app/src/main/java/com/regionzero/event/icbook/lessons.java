@@ -45,14 +45,14 @@ public class lessons extends AppCompatActivity {
         Intent intent = new Intent(this, lesson_1_2.class);
         startActivity(intent);
     }
-    /*public  void onClickLess1_3(View view) {
+    public  void onClickLess1_3(View view) {
         Intent intent = new Intent(this, lesson_1_3.class);
         startActivity(intent);
     }
-    public  void onClickLess2(View view) {
+    /*public  void onClickLess2(View view) {
         Intent intent = new Intent(this, lesson_2.class);
         startActivity(intent);
-    }
+    }*/
     public  void onClickLess3(View view) {
         Intent intent = new Intent(this, lesson_3.class);
         startActivity(intent);
@@ -61,7 +61,7 @@ public class lessons extends AppCompatActivity {
         Intent intent = new Intent(this, lesson_3_1.class);
         startActivity(intent);
     }
-    public  void onClickLess4(View view) {
+    /*public  void onClickLess4(View view) {
         Intent intent = new Intent(this, lesson_4.class);
         startActivity(intent);
     }
