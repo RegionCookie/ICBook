@@ -70,6 +70,18 @@
                 android:onClick="onClickLess1_2"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"/>
+            <Button
+                android:id="@+id/btn_less1_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 1.2.1: Эффективная броня"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess1_2_1"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
 
             <Button
                 android:id="@+id/btn_less1_3"
@@ -94,6 +106,19 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:onClick="onClickLess2"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less2_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 2.1: ToolType - типы предметов"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess2_1"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"/> -->
 
@@ -133,6 +158,30 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:onClick="onClickLess4"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+            <Button
+                android:id="@+id/btn_less4_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 4.1: Форма блока"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess4_1"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+                <Button
+                android:id="@+id/btn_less4_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 4.2: Рендер блока"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess4_2"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"/>
 
@@ -176,7 +225,20 @@
                 android:background="@drawable/clicked"/>
 
             <Button
-                android:id="@+id/btn_less10"
+                android:id="@+id/btn_less6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 6.1: Таймер"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess6_1"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"/>
+
+            <Button
+                android:id="@+id/btn_less7"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="Урок 7: Комментарии"
@@ -205,7 +267,7 @@
                 android:id="@+id/btn_less9"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Урок 9: Коллбеки"
+                android:text="Урок 9: Функции"
                 android:textAllCaps="false"
                 android:textSize="15sp"
                 android:layout_marginRight="10dp"
@@ -218,7 +280,7 @@
                 android:id="@+id/btn_less10"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Урок 10: Отмена стандартного действия"
+                android:text="Урок 10: Коллбеки"
                 android:textAllCaps="false"
                 android:textSize="15sp"
                 android:layout_marginRight="10dp"
@@ -231,7 +293,7 @@
                 android:id="@+id/btn_less11"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Урок 11: Частицы"
+                android:text="Урок 11: Отмена стандартного действия"
                 android:textAllCaps="false"
                 android:textSize="15sp"
                 android:layout_marginRight="10dp"
@@ -244,12 +306,25 @@
                 android:id="@+id/btn_less12"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Урок 12: Рандом"
+                android:text="Урок 12: Частицы"
                 android:textAllCaps="false"
                 android:textSize="15sp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
-                android:onClick="onClickLess15"
+                android:onClick="onClickLess12"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btn_less12_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 12.1: Кастомные частицы"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess12_1"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"
                 android:layout_marginBottom="10dp"/>
@@ -258,7 +333,33 @@
                 android:id="@+id/btn_less13"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="Урок 13: Генерация руд"
+                android:text="Урок 13: Эффекты"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess13"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btn_less14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 14: Рандом"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess14"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btn_less13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 15: Генерация руд"
                 android:textAllCaps="false"
                 android:textSize="15sp"
                 android:layout_marginRight="10dp"
@@ -267,8 +368,6 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"
                 android:layout_marginBottom="10dp"/> -->
-
-
         </LinearLayout>
     </ScrollView>
 
