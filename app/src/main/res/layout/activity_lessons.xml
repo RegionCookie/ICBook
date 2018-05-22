@@ -70,7 +70,7 @@
                 android:onClick="onClickLess1_2"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"/>
-            <Button
+           <!--<Button
                 android:id="@+id/btn_less1_2_1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -81,8 +81,7 @@
                 android:layout_marginLeft="10dp"
                 android:onClick="onClickLess1_2_1"
                 android:layout_marginTop="5dp"
-                android:background="@drawable/clicked"/>
-
+                android:background="@drawable/clicked"/>-->
             <Button
                 android:id="@+id/btn_less1_3"
                 android:layout_width="match_parent"
@@ -356,7 +355,7 @@
                 android:background="@drawable/clicked"
                 android:layout_marginBottom="10dp"/>
             <Button
-                android:id="@+id/btn_less13"
+                android:id="@+id/btn_less15"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="Урок 15: Генерация руд"
@@ -364,10 +363,128 @@
                 android:textSize="15sp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
-                android:onClick="onClickLess13"
+                android:onClick="onClickLess15"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/clicked"
-                android:layout_marginBottom="10dp"/> -->
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 16: GUI"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess16"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 17: Создание мобов"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess17"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less17_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 17.1: Создание рендера для моба"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess17_1"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less17_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 17.2: ИИ мобов"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess17_2"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less17_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 17.3: Создание яйца спавна"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess17_3"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 18: SoundLib - кастомная музыка"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess18"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 19: Комманды"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess19"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less20"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 20: Измерения"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess20"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+             <Button
+                android:id="@+id/btn_less21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Урок 21: Байт-код"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickLess21"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/clicked"
+                android:layout_marginBottom="10dp"/>
+                -->
         </LinearLayout>
     </ScrollView>
 

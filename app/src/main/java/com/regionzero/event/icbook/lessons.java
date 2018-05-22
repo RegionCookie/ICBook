@@ -45,10 +45,10 @@ public class lessons extends AppCompatActivity {
         Intent intent = new Intent(this, lesson_1_2.class);
         startActivity(intent);
     }
-    public  void onClickLess1_2_1(View view) {
+    /*public  void onClickLess1_2_1(View view) {
         Intent intent = new Intent(this, lesson_1_2_1.class);
         startActivity(intent);
-    }
+    }*/
     public  void onClickLess1_3(View view) {
         Intent intent = new Intent(this, lesson_1_3.class);
         startActivity(intent);
@@ -126,11 +126,47 @@ public class lessons extends AppCompatActivity {
         startActivity(intent);
     }
     public  void onClickLess14(View view) {
-        Intent intent = new Intent(this, lesson_13.class);
+        Intent intent = new Intent(this, lesson_14.class);
         startActivity(intent);
     }
     public  void onClickLess15(View view) {
-        Intent intent = new Intent(this, lesson_13.class);
+        Intent intent = new Intent(this, lesson_15.class);
+        startActivity(intent);
+    }
+    public  void onClickLess16(View view) {
+        Intent intent = new Intent(this, lesson_16.class);
+        startActivity(intent);
+    }
+    public  void onClickLess17(View view) {
+        Intent intent = new Intent(this, lesson_17.class);
+        startActivity(intent);
+    }
+    public  void onClickLess17_1(View view) {
+        Intent intent = new Intent(this, lesson_17_1.class);
+        startActivity(intent);
+    }
+    public  void onClickLess17_2(View view) {
+        Intent intent = new Intent(this, lesson_17_2.class);
+        startActivity(intent);
+    }
+    public  void onClickLess17_3(View view) {
+        Intent intent = new Intent(this, lesson_17_3.class);
+        startActivity(intent);
+    }
+    public  void onClickLess18(View view) {
+        Intent intent = new Intent(this, lesson_18.class);
+        startActivity(intent);
+    }
+    public  void onClickLess19(View view) {
+        Intent intent = new Intent(this, lesson_18.class);
+        startActivity(intent);
+    }
+    public  void onClickLess20(View view) {
+        Intent intent = new Intent(this, lesson_18.class);
+        startActivity(intent);
+    }
+    public  void onClickLess21(View view) {
+        Intent intent = new Intent(this, lesson_18.class);
         startActivity(intent);
     }*/
 
